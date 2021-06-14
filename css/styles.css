@@ -6,6 +6,10 @@ li {
     display: inline;
 }
 
+.navright li {
+    float: right;
+}
+
 a {
     text-decoration: none;
 }
