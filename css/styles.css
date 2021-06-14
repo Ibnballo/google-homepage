@@ -6,10 +6,10 @@ li {
     display: inline;
 }
 
-.navright li {
+ul .navright {
     float: right;
 }
 
-a {
+li a {
     text-decoration: none;
 }
