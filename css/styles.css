@@ -1,5 +1,6 @@
 ul {
     list-style-type: none;
+    padding: 0px 10px 10px 10px;
 }
 
 li {
@@ -12,4 +13,27 @@ ul .navright {
 
 li a {
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.541);
+    padding: 0px 5px 5px 5px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.navform {
+    display: inline;
+}
+
+.navform input {
+    color: white;
+    background-color: rgb(80, 121, 211);
+    font-weight: bolder;
+    height: 31px;
+    width: 70px;
+    border: none;
+    border-radius: 0.2em;
 }
