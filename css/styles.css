@@ -37,3 +37,17 @@ li a:hover {
     border: none;
     border-radius: 0.2em;
 }
+
+.googlelogo, .googlesearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.googlelogo {
+    margin-top: 100px;
+}
+
+.googlesearch {
+    margin: 20px;
+}
