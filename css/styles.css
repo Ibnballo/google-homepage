@@ -67,15 +67,16 @@ input[type=search] {
     border: 0.002em solid rgba(0, 0, 0, 0.116);
     border-radius: 3em;
     margin-bottom: 20px;
-    background-image: url("Images/outline_search_black_24dp.png");
-    background-position: 10px 10px;
-    padding-left: 40px;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
+    padding-left: 50px;
+    outline-style: hidden;
 }
 
-#forminput:hover {
-    place-content: search;
+input[type=search]:focus {
+    outline: none;
+}
+
+input[type=search]:hover {
+    box-shadow: 1px 1px 1px 1px;
 }
 
 .searchbtn {
