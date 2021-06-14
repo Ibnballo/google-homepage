@@ -52,7 +52,7 @@ li a:hover {
     margin: 30px;
 }
 
-.forminput {
+#forminput {
     width: 600px;
     height: 45px;
     border: 0.002em solid rgba(0, 0, 0, 0.116);
@@ -72,4 +72,11 @@ li a:hover {
     height: 35px;
     border: none;
     border-radius: 0.5em;
+}
+
+#gicons {
+    position: absolute;
+    padding: 10px;
+    min-width: 40px;
+    color: grey;
 }
