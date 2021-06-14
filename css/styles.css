@@ -24,6 +24,15 @@ li a:hover {
     text-decoration: underline;
 }
 
+#gappsicon {
+    margin-right: 50px;
+    position: absolute;
+    color: lightslategray;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+
 .navform {
     display: inline;
 }
@@ -52,12 +61,17 @@ li a:hover {
     margin: 30px;
 }
 
-#forminput {
+input[type=search] {
     width: 600px;
     height: 45px;
     border: 0.002em solid rgba(0, 0, 0, 0.116);
     border-radius: 3em;
     margin-bottom: 20px;
+    background-image: url("Images/outline_search_black_24dp.png");
+    background-position: 10px 10px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
 }
 
 #forminput:hover {
