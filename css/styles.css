@@ -67,6 +67,10 @@ input[type=search] {
     border: 0.002em solid rgba(0, 0, 0, 0.116);
     border-radius: 3em;
     margin-bottom: 20px;
+    background-image: url('Icons/searchicon.png');
+    background-position: 12px 12px;
+    background-repeat: no-repeat;
+    background-size: 1.5em;
     padding-left: 50px;
     outline-style: hidden;
 }
@@ -93,13 +97,13 @@ input[type=search]:hover {
     border-radius: 0.5em;
 }
 
-#gicons {
+/*#gicons {
     position: absolute;
     padding: 13px;
     min-width: 40px;
     color: grey;
     font-size: 1.2em;
-}
+}*/
 
 footer {
     position: fixed;
