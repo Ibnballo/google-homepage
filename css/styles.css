@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -176,4 +174,11 @@ footer a {
     color: #5F6368;
     font: 14px arial, sans-serif;
     padding: 0 0 0 27px;
+}
+
+@media screen and (min-width:380px) {
+    body {
+        min-width: 100%;
+        display: inline-block;
+    }
 }
