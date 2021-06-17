@@ -1,6 +1,5 @@
 ul {
     list-style-type: none;
-    padding: 0px 10px 10px 10px;
 }
 
 li {
@@ -8,10 +7,11 @@ li {
 }
 
 ul .navright, .footnavright {
-    float: right;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    padding-top: 0;
+    margin-top: -20px;
 }
 
 .navright li, .navright span, .signinbtn {
@@ -20,9 +20,9 @@ ul .navright, .footnavright {
 
 .signinbtn {
     color: white;
-    background-color: #008CBA;
+    background-color: #4285f4;
     border: none;
-    padding: 8px 12px;
+    padding: 8px 13px 8px 13px;
     border-radius: 0.2em;
     text-align: center;
     font-size: 13px;
@@ -111,9 +111,6 @@ input[type=search]:hover {
     cursor: pointer;
 }
 
-.HPVvwb:hover {
-    
-}
 
 .searchbtn {
     width: 100%;
