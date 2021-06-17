@@ -178,7 +178,6 @@ footer a {
 
 @media screen and (max-width:400px) {
     body {
-        min-width: 100%;
         display: inline-block;
     }
 }
